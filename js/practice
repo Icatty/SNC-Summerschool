@@ -1,0 +1,8 @@
+function removeVoid(arr) {
+	narr = new Array;
+	narr=map(function(n){
+		if(n==null){
+			n=
+		}
+	})
+}
