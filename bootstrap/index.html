@@ -12,7 +12,9 @@
 	<meta name="viewport" content="width=1180, user-scalable=no, target-densitydpi=device-dpi">
 	<script  src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min3.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min4.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<title>Fotor在线设计工具_免费设计素材和模板_在线平面设计网站</title>
@@ -22,65 +24,108 @@
 	<div>
 		<div class="header">
 			<div class="header-wrapper">
-				<div class="row">
-				<ul class="top-ul">
-					<li class="logo col-md-2 col-1 col-xl-2">
-						<a href="/" class="logo-link" data-v-3cefab61>
+				<nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-xl hidden-lg" role="navigation" >
+					<div class="container">
+						<div class="navbar-header">
+    						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+						        <span class="sr-only">切换导航</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							</button>
+							<a href="#" class="navbar-brand nav-title">Fotor</a>
+						    </div>
+						    <div class="collapse navbar-collapse" id="navbar-menu">
+			  		        <ul class="nav navbar-nav navbar-right">
+						        <li class="cative"><a href="#">开始设计</a></li>
+						        <li class="cative"><a href="#">照片编辑</a></li>
+						        <li class="cative"><a href="#">在线印刷</a></li>
+						        <li class="cative"><a href="#">素材库</a></li>
+						        <li class="cative"><a href="#">特色功能</a></li>
+						        <li class="cative"><a href="#">更多</a></li>
+						     </ul>
+					   </div>
+				  </div>
+				</nav> 
+
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top hidden-xs">
+					<a href="/" class="logo-link" data-v-3cefab61>
 							<img src="images/logo.png">
 						</a>
+				<ul class="top-ul navbar-nav">
+					
+					
+					<!-- <li class="logo navbar-brand">
+						
+					</li> -->
+					<li class="features nav-item hidden-xs">
+						<a class="top-link nav-link" href="https://www.fotor.com.cn/app.html#" class="top-link" data-v-3cefab61="">开始设计</a>
 					</li>
-					<li class="features col-md-2 col-1 col-xl-2">
-						<a class="top-link" href="https://www.fotor.com.cn/app.html#" class="top-link" data-v-3cefab61="">开始设计</a>
-					</li>
-					<li class="features col-md-2 col-1 col-xl-2">
-						<a class="top-link" href="https://www.fotor.com.cn/app.html#/editor/basic" class="top-link" data-v-3cefab61="">照片编辑</a>
+					<li class="features nav-item hidden-xs">
+						<a class="top-link nav-link" href="https://www.fotor.com.cn/app.html#/editor/basic" class="top-link" data-v-3cefab61="">照片编辑</a>
         			</li>
-        			<li class="features col-md-2 col-1 col-xl-2">
-        				<a class="top-link" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a>
+        			<li class="features nav-item hidden-xs">
+        				<a class="top-link nav-link" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a>
         				
         			</li>
-        			<li class="features col-md-2 col-1 col-xl-2">
-        				<a class="top-link sucai" href="">素材库</a>
-        				<ul>
-        					<li><a class="u2" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
-        					<li><a class="u2" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
+        			<li class="features nav-item hidden-xs">
+        				<a class="top-link nav-link sucai dropdown-toggle" href="javascript:void(0)">素材库</a>
+        				<ul class="dropdown-menu">
+        					<li><a class="u2 dropdown-item" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
+        					<li><a class="u2 dropdown-item" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
         				</ul>
         			</li>
-        			<li class="features col-md-2 col-1 col-xl-2">
-        				<a class="top-link" href="">特色功能</a>
-        				<ul>
-        					<li><a class="u2" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
-        					<li><a class="u2" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
+        			<li class="features nav-item hidden-xs ">
+        				<a class="top-link nav-link dropdown-toggle" href="javascript:void(0)">特色功能</a>
+        				<ul class="dropdown-menu">
+        					<li><a class="u2 dropdown-item" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
+        					<li><a class="u2 dropdown-item" href="https://www.fotor.com.cn/app.html#/editor/basic">在线印刷</a></li>
         				</ul>
         			</li>
-        			<li  class="features col-md-2 col-1 col-xl-2">
-        				<a class="top-link" href="">更多</a>
+        			<li  class="features nav-item hidden-xs">
+        				<a class="top-link nav-link" href="">更多</a>
         			</li>
+        			
 				</ul>
-			</div>
-			</div>
-		</div>
-		<div class="lunbo">
-			<div class="lb">
-				<div class="lb1">
-				<ul>
-					<li><a id="page1" href="#" style="background-image: url(images/l1.jpg);"></a></li>
-					<li><a id="page2" href="#" style="background-image: url(images/l2.png);"></a></li>
-					<li><a id="page3" href="#" style="background-image: url(images/l3.png);"></a></li>
-					<li><a id="page4" href="#" style="background-image: url(images/l4.png);"></a></li>
-				</ul>
-				</div>
-				<div class="lb2">
-					<ul>
-						<li class="point1" style="background-image: url(images/l11.jpg);"></li>
-						<li class="point2" style="background-image: url(images/l22.png);"></li>
-						<li class="point3" style="background-image: url(images/l11.jpg);"></li>
-						<li class="point4" style="background-image: url(images/l11.jpg);"></li>
-					</ul>
-				</div>
-			</div>
+			</nav>
 			
+			</div>
 		</div>
+		
+<div id="demo" class="carousel slide" data-ride="carousel">
+ 
+    <!-- 指示符 -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+ 
+    <!-- 轮播图片 -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img style="width: 100%" src="images/l1.jpg">
+        </div>
+        <div class="carousel-item">
+            <img style="width: 100%" src="images/l2.png">
+        </div>
+        <div class="carousel-item">
+            <img style="width: 100%" src="images/l3.png">
+        </div>
+        <div class="carousel-item">
+            <img style="width: 100%" src="images/l4.png">
+        </div>
+    </div>
+ 
+    <!-- 左右切换按钮 -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
 	</div>
 	<div class="part2">
 		<section>
